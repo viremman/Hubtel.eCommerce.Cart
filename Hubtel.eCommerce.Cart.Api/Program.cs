@@ -24,7 +24,6 @@ namespace Hubtel.eCommerce.Cart.Api
                 DefaultData.SeedCarts(context);
             }
             host.Run();
-            CreateHostBuilder(args).Build().Run();
         }
 
         public static IHostBuilder CreateHostBuilder(string[] args) =>
